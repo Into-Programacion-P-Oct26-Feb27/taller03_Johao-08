@@ -17,18 +17,18 @@ public class Ejercicio01 {
     public static void main(String[] args) {
         // Solución a la problemática
 
-        int variable1 = 1;
-        int variable2 = 2;
-        int variable3 = 4;
-        int variable4 = 3;
-        int variable5 = 5;
-        int variable6 = 80;
+        int a = 18;
+        int b = 6;
+        int c = 3;
+        int d = 4;
+        int e = 4;
+        int f = 64;
 
-        System.out.println("-------Solución a problema------------------");
+        System.out.println("");
         // Math.sqrt me permite obtener la raíz cuadrada de un número
         
-        double resultado = (variable1 + variable2 + variable3 + variable4) / 
-                variable5 + Math.sqrt(variable6);
+        double resultado = (a + b * c ) / 
+                e + Math.sqrt(f);
         
         
         

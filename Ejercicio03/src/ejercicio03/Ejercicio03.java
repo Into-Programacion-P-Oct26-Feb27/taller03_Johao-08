@@ -16,7 +16,15 @@ public class Ejercicio03 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int a= 25;
+        int b= 15;
+        int c= 8;
+        int d= 49;
+        double e= 2.5;
         
+    double resultado = (((a+b)/c) + (Math.sqrt(d)) + (e) );    
+               
+     System.out.println(resultado);    
     }
     
 }
