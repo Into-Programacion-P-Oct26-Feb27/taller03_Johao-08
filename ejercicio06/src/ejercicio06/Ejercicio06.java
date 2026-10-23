@@ -15,18 +15,20 @@ public class Ejercicio06 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        int a= 100;
-        int b= 4;
-        int c= 25;
-        int d= 7;
-        int e= 2;
-        int f= 50;
-        
-        boolean resultado= ((a/b)==c) && ((Math.pow(d,e)) > f);
-         
+
+        int a = 100;
+        int b = 4;
+        int c = 25;
+        int d = 7;
+        int e = 2;
+        int f = 50;
+
+        boolean parte1 = ((a / b) == c);
+        boolean parte2 = ((Math.pow(d, e)) > f);
+        boolean resultado = (parte1 && parte2);
+
         System.out.println(resultado);
-                
+
     }
-    
+
 }

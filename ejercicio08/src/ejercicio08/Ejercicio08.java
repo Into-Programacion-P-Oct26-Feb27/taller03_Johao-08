@@ -15,23 +15,24 @@ public class Ejercicio08 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        int a= 80;
-        int b= 40;
-        int c= 5;
-        int d= 2;
-        int e= 45;
-        int f= 100;
-        int g= 25;
-        int h= 3;
-        int i= 30;
-        int j= 6;
-        
-        boolean resultado= ((((a+b)/j)+(Math.pow(c, d))>=e)&&((f-g*h)<i));
-        
-        System.out.println(resultado); 
-        
-        
+
+        int a = 80;
+        int b = 40;
+        int c = 5;
+        int d = 2;
+        int e = 45;
+        int f = 100;
+        int g = 25;
+        int h = 3;
+        int i = 30;
+        int j = 6;
+
+        boolean parte1 = ((((a + b) / j) + Math.pow(c, d)) >= e);
+        boolean parte2 = ((f - g * h) < i);
+        boolean resultado = (parte1 && parte2);
+
+        System.out.println(resultado);
+
     }
-    
+
 }

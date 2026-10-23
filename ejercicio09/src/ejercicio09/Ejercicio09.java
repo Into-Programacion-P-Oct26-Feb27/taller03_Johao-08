@@ -15,18 +15,20 @@ public class Ejercicio09 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        int a= 225;
-        int b= 5;
-        int c= 2;
-        int d= 50;
-        int e= 120;
-        int f= 4;
-        int g= 30;
-        
-        boolean resultado= (!(((Math.sqrt(a))+ Math.pow(b,c)<d))&& ((e/f)==g));
-        
-        System.out.println(resultado);       
+
+        int a = 225;
+        int b = 5;
+        int c = 2;
+        int d = 50;
+        int e = 120;
+        int f = 4;
+        int g = 30;
+
+        boolean parte1 = (!((Math.sqrt(a) + Math.pow(b, c)) < d));
+        boolean parte2 = ((e / f) == g);
+        boolean resultado = (parte1 && parte2);
+
+        System.out.println(resultado);
     }
-    
+
 }

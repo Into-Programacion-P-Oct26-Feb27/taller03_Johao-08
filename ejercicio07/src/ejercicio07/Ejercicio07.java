@@ -15,20 +15,23 @@ public class Ejercicio07 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        int a= 15;
-        int b= 25;
-        int c= 30;
-        int d= 8;
-        int e= 2;
-        int f= 60;
-        int g= 144;
-        int h= 12;
-        
-        boolean resultado = ((a + b) > c) ||  (Math.pow(d, e) < f && Math.sqrt(g) == h);
 
-System.out.println(resultado);       
-       
-               }
-    
+        int a = 15;
+        int b = 25;
+        int c = 30;
+        int d = 8;
+        int e = 2;
+        int f = 60;
+        int g = 144;
+        int h = 12;
+
+        boolean parte1 = (a + b) > c;
+
+        boolean parte2 = (((Math.pow(d, e)) < f )&& (Math.sqrt(g)) == h);
+        boolean resultado = (parte1 || parte2);
+
+        System.out.println(resultado);
+
+    }
+
 }

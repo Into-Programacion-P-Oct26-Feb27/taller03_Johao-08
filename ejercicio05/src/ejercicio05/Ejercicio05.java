@@ -20,7 +20,10 @@ public class Ejercicio05 {
         int b = 81;
         int c = 40;
         
-    boolean resultado = ((Math.pow(a,a))+ (Math.sqrt(b)) <= (c));
+        double suma = ((Math.pow(a, a)) + (Math.sqrt(b)));
+        boolean resultado = (suma <= c);
+        
+   
         
          System.out.println(resultado);
     }
