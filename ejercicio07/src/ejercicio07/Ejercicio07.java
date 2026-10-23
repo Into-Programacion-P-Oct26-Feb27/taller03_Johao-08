@@ -25,9 +25,8 @@ public class Ejercicio07 {
         int g = 144;
         int h = 12;
 
-        boolean parte1 = (a + b) > c;
-
-        boolean parte2 = (((Math.pow(d, e)) < f )&& (Math.sqrt(g)) == h);
+        boolean p1 = (a + b) > c;
+        boolean p2 = (((Math.pow(d, e)) < f) && (Math.sqrt(g)) == h);
         boolean resultado = (parte1 || parte2);
 
         System.out.println(resultado);

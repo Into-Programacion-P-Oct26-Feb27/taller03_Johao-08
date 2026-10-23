@@ -29,8 +29,8 @@ public class Ejercicio10 {
         int l = 2;
         int m = 40;
 
-        boolean parte1 = ((Math.pow(a, b) + Math.sqrt(c) > d) && (f / g == h));
-        boolean parte2 = ((i + j <= h) && !(Math.pow(k, l) > m));
+        boolean p1 = ((Math.pow(a, b) + Math.sqrt(c) > d) && (f / g == h));
+        boolean p2 = ((i + j <= h) && !(Math.pow(k, l) > m));
         boolean resultado = (parte1 || parte2);
 
         System.out.println(resultado);

@@ -24,8 +24,8 @@ public class Ejercicio09 {
         int f = 4;
         int g = 30;
 
-        boolean parte1 = (!((Math.sqrt(a) + Math.pow(b, c)) < d));
-        boolean parte2 = ((e / f) == g);
+        boolean p1 = (!((Math.sqrt(a) + Math.pow(b, c)) < d));
+        boolean p2 = ((e / f) == g);
         boolean resultado = (parte1 && parte2);
 
         System.out.println(resultado);

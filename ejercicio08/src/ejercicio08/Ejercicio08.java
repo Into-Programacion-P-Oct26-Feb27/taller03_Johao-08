@@ -27,8 +27,8 @@ public class Ejercicio08 {
         int i = 30;
         int j = 6;
 
-        boolean parte1 = ((((a + b) / j) + Math.pow(c, d)) >= e);
-        boolean parte2 = ((f - g * h) < i);
+        boolean p1 = ((((a + b) / j) + Math.pow(c, d)) >= e);
+        boolean p2 = ((f - g * h) < i);
         boolean resultado = (parte1 && parte2);
 
         System.out.println(resultado);

@@ -23,8 +23,8 @@ public class Ejercicio06 {
         int e = 2;
         int f = 50;
 
-        boolean parte1 = ((a / b) == c);
-        boolean parte2 = ((Math.pow(d, e)) > f);
+        boolean p1 = ((a / b) == c);
+        boolean p2 = ((Math.pow(d, e)) > f);
         boolean resultado = (parte1 && parte2);
 
         System.out.println(resultado);
